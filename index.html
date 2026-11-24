@@ -122,6 +122,13 @@ h3{font-size:18px;font-weight:700}
 .btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:var(--navy2);color:#fff}
 .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}.btn-outline:hover{background:rgba(255,255,255,.1);color:#fff}
 .btn-sm{padding:12px 20px;font-size:14px}
+
+/* Botao WhatsApp exclusivo do cabecalho */
+.topbar .header-wa{background:linear-gradient(135deg,#0B1E3B,#102747) padding-box,linear-gradient(115deg,#976a16 0%,#f9e6a0 23%,#c99c26 43%,#fff0ad 65%,#a97816 88%,#e7c45b 100%) border-box;border:3px solid transparent;border-radius:18px;padding:10px 19px;gap:12px;color:#fff;white-space:nowrap;box-shadow:0 3px 10px rgba(151,106,22,.24);letter-spacing:.045em}
+.topbar .header-wa:hover{background:linear-gradient(135deg,#102747,#1d3e73) padding-box,linear-gradient(115deg,#976a16,#f9e6a0,#c99c26,#fff0ad,#a97816) border-box;color:#fff;box-shadow:0 5px 15px rgba(151,106,22,.38)}
+.topbar .header-wa-icon{width:24px;height:24px;flex:none;color:#d9b44d}
+.topbar .header-wa-divider{width:1px;height:25px;background:#d9b44d;opacity:.8;flex:none}
+@media(max-width:480px){.topbar .header-wa{padding:8px 10px;gap:7px;font-size:11px;border-width:2px}.topbar .header-wa-icon{width:19px;height:19px}.topbar .header-wa-divider{height:20px}}
 /* hero */
 .hero{background:radial-gradient(1200px 600px at 85% 20%,#1D3E73 0%,transparent 60%),linear-gradient(135deg,#081733 0%,#0B1E3B 55%,#13305C 100%);color:#fff;padding:90px 0 100px}
 .hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center}
@@ -495,7 +502,7 @@ h3{font-size:18px;font-weight:700}
 <a href="#simulador">Simulador</a>
 <a href="#seguros">Seguros</a>
 </nav>
-<a href="https://wa.me/5511945643305?text=Ol%C3%A1%2C%20F%C3%A1bio!%20Vim%20pelo%20site%20da%20F7%20Mirar%20Prime%20e%20quero%20conversar%20sobre%20meu%20objetivo." target="_blank" rel="noopener" class="btn btn-navy btn-sm">Falar com Fábio</a>
+<a href="https://wa.me/5511945643305?text=Ol%C3%A1%2C%20F%C3%A1bio!%20Vim%20pelo%20site%20da%20F7%20Mirar%20Prime%20e%20quero%20conversar%20sobre%20meu%20objetivo." target="_blank" rel="noopener" class="btn btn-navy btn-sm header-wa" aria-label="WhatsApp – falar com Fábio"><svg class="header-wa-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12.04 0a11.86 11.86 0 0 0-10.3 17.75L0 24l6.4-1.68A11.9 11.9 0 1 0 12.04 0zm0 21.8a9.9 9.9 0 0 1-5.05-1.38l-.36-.21-3.8 1 1.02-3.7-.24-.38A9.9 9.9 0 1 1 12.04 21.8zm5.43-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.5s1.07 2.9 1.22 3.1c.15.2 2.11 3.22 5.11 4.52.71.31 1.27.49 1.71.63.72.23 1.37.2 1.88.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg><span class="header-wa-divider" aria-hidden="true"></span><span>WHATSAPP</span></a>
 </div>
 </header>
 
